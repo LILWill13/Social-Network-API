@@ -1,5 +1,4 @@
 const { Schema, model } = require('mongoose');
-
 const reactionSchema = require('./Reaction.js')
 
 const thoughtSchema = new Schema(
