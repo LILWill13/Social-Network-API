@@ -32,6 +32,6 @@ thoughtSchema.virtual('friendCount').get(function () {
 
 
   
-const Thought  = model('thought', userSchema);
+const Thought  = model('thought', thoughtSchema);
   
 module.exports = Thought;
